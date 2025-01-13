@@ -70,13 +70,30 @@
       <h2>Game Preference Form</h2>
       <form>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
 
         <label for="team">Favorite Team:</label>
-        <input type="text" id="team" name="team" required />
+        <input
+          type="text"
+          id="team"
+          name="team"
+          placeholder="Comma-separated teams(e.g Lakers, Warriors)"
+          required
+        />
 
-        <label for="expandable">Expandable Input:</label>
-        <textarea id="expandable" name="expandable"></textarea>
+        <label for="expandable">Games Types:</label>
+        <textarea
+          id="expandable"
+          name="expandable"
+          placeholder="Regular season, Playoffs"
+          required
+        ></textarea>
 
         <button type="submit">Submit</button>
       </form>
